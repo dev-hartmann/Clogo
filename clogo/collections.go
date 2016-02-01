@@ -1,4 +1,5 @@
 package clogo
 
-type Collection interface {
+type Collection struct {
+
 }

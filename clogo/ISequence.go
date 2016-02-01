@@ -1,12 +1,13 @@
 package clogo
 
 type ISequence interface {
+
+	//Essential seq functions
 	First() interface{}
 	Rest() ISequence
 	Cons() ISequence
-	Concat() ISequence
 
-	Empty() bool
+	Concat() ISequence
 
 	Take(n int) ISequence
 	Drop(n int) ISequence
