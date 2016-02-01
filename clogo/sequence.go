@@ -16,11 +16,6 @@ type ISequence interface {
 
 	Sort() ISequence
 	SortBy(predicate interface{}) ISequence
-
-	//Useful functions on sequences
-	Map(func(interface{}) bool) ISequence
-	Filter(func(interface{}) bool) ISequence
-	Reduce(func(interface{}) bool) ISequence
 }
 
 type Sequence struct {
