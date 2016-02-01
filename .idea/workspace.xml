@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="affbf149-08d9-4a67-877c-f0bad1142cba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="clogo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,11 +94,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/clogo/collections.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/clogo/sequence.go" />
         <option value="$PROJECT_DIR$/clogo/functions.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -676,12 +676,12 @@
       <option name="number" value="Default" />
       <updated>1454310273759</updated>
       <workItem from="1454310275741" duration="20000" />
-      <workItem from="1454310296912" duration="2858000" />
+      <workItem from="1454310296912" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2878000" />
+    <option name="totallyTimeSpent" value="2996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3775" y="23" width="1855" height="1177" extended-state="6" />
