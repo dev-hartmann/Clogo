@@ -1,0 +1,1 @@
+## Implementing clojurelike sequences and functions in Go
