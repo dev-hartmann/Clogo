@@ -1,6 +1,13 @@
 package clogo
 
-// Useful functions on sequences
-// Map(func(interface{}) bool) ISequence
-// Filter(func(interface{}) bool) ISequence
-// Reduce(func(interface{}) bool) ISequence
+//Useful functions on sequences
+func Map(data ISequence, lambda func(interface{}) bool) ISequence {
+	return nil
+}
+func Filter(data ISequence, lambda func(interface{}) bool) ISequence {
+	return nil
+}
+
+func Reduce(data ISequence, lambda func(interface{}) bool) ISequence {
+	return nil
+}
