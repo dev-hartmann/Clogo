@@ -3,10 +3,9 @@ package clogo
 type ICollection interface {
 
 	//Essential collection functions
-	Empty() bool
+	IsEmpty() bool
 	IsCollection() bool
 
 	Count() int
 	Seq() ISequence
-
 }
