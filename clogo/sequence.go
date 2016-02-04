@@ -1,5 +1,7 @@
 package clogo
 
+import "container/list"
+
 type Sequence struct {
 	head SequenceElement
 	rest Sequence
@@ -13,6 +15,29 @@ func NewSequence(first SequenceElement) *Sequence {
 		rest:  nil,
 		count: 1,
 	}
+}
+
+func NewSequenceFromList(data list.List) Sequence {
+	count := data.Len()
+
+	if count > 1 {
+		//get first element of list
+		first := data.Front()
+		//remove first element from list to get 'rest' list
+		_ := data.Remove(first)
+
+		//create array from list
+		rest := make([]interface{}, count)
+		for element := data.Front(); element != nil; element = element.Next() {
+			rest = append(rest, element)
+		}
+
+		return createSequenceFromCollection(first, rest)
+	} else if count == 1 {
+		return NewSequence(data.Front())
+	}
+
+	return nil
 }
 
 func NewSequenceFromArray(data []interface{}) Sequence {
